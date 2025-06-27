@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: |
     <p>Just do it!</p>
-    <p>Email: xmeiab[at]connect.ust.hk</p>
-    <p>Office: HKUST, Lab 2602</p>
+    <p>xmeiab[at]connect.ust.hk</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -31,6 +30,6 @@ Greetings! I’m Xiaodong MEI, a final year Ph.D. candidate at **the Hong Kong U
 
 Before joining HKUST, I completed my Bachelor's degree with the supervision of Prof.[Yongsheng OU](https://faculty.dlut.edu.cn/ouyongsheng/en/index.htm) in Computer Science and Technology at **University of Chinese Academy of Sciences** (UCAS), China.
 
-My primary research field is **learning based motion prediction and planning in autonomous driving**, and my research interests span **reinforcement learning**, **VLM/VLA**, **imitation learning**， **self-supervised learning** and related fields. I am passionate about exploring cutting-edge technologies in robotics and aim to push the limitations of data-driven approaches for building more human-like and safer intelligent agents in real life.
+My primary research field is **learning based motion prediction and planning in autonomous driving**, and my research interests span **reinforcement learning**, **VLM/VLA**, **imitation learning**，**self-supervised learning** and related fields. I am passionate about exploring cutting-edge technologies in robotics and aim to push the limitations of data-driven approaches for building more human-like and safer intelligent agents in real life.
 
-<p style="color: blue;">I’m currently looking for a job (both full time and intern) or a postdoc position, please feel free to drop me an email for any opportunities.
+<p style="color: blue;">I’m currently looking for a job (both full time and intern) or a postdoc position, please feel free to drop me an email for any opportunities!

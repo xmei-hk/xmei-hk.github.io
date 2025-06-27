@@ -2,19 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <p><small> Ph.D. student in Computer Science and Engineering (CSE) • The Hong Kong University of Science and Technology</small></p>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Just do it!</p>
+    <p>Email: xmeiab[at]connect.ust.hk</p>
+    <p>Office: HKUST, Lab 2602</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,8 +27,10 @@ latest_posts:
   limit: 1 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Greetings! I’m Xiaodong MEI, a final year Ph.D. candidate at **the Hong Kong University of Science and Technology** (HKUST). I am fortunate to be supervised by Prof. [Dan XU](https://www.danxurgb.net/) and pursuing the Ph.D. degree at the Cheng Kar-Shun Robotics Institute (CKSRI) and the Intelligent and Autonomous Driving Center (IADC).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before joining HKUST, I completed my Bachelor's degree with the supervision of Prof.[Yongsheng OU](https://faculty.dlut.edu.cn/ouyongsheng/en/index.htm) in Computer Science and Technology at **University of Chinese Academy of Sciences** (UCAS), China.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My primary research field is **learning based motion prediction and planning in autonomous driving**, and my research interests span **reinforcement learning**, **VLM/VLA**, **imitation learning**， **self-supervised learning** and related fields. I am passionate about exploring cutting-edge technologies in robotics and aim to push the limitations of data-driven approaches for building more human-like and safer intelligent agents in real life.
+
+<p style="color: blue;">I’m currently looking for a job (both full time and intern) or a postdoc position, please feel free to drop me an email for any opportunities.

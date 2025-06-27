@@ -2,36 +2,30 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@string{iros = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems}}
+@string{icra = {Proceedings of the IEEE International Conference on Robotics and Automation}}
+@string{robio = {Proceedings of the IEEE International Conference on Robotics and Biomimetics}}
+@string{ram = {IEEE Robotics and Automation Magazine}}
+@string{ral = {IEEE Robotics and Automation Letters}}
+@string{tits = {IEEE Transactions on Intelligent Transportation Systems}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@INPROCEEDINGS{xin2024generictrajectoryplanningmethod,
+  title={NetRoller: Interfacing General and Specialized Models for End-to-End Autonomous Driving}, 
+  author={Ren Xin and Hongji Liu and Xiaodong Mei and Wenru Liu and Maosheng Ye and Zhili Chen and Jun Ma},
+  booktitle={submission},
+  year={2025},
+  eprint={2506.14589},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2506.14589}, 
+  abstract={Integrating General Models (GMs) such as Large Language Models (LLMs), with Specialized Models (SMs) in autonomous driving tasks presents a promising approach to mitigating challenges in data diversity and model capacity of existing specialized driving models. However, this integration leads to problems of asynchronous systems, which arise from the distinct characteristics inherent in GMs and SMs. To tackle this challenge, we propose NetRoller, an adapter that incorporates a set of novel mechanisms to facilitate the seamless integration of GMs and specialized driving models. Specifically, our mechanisms for interfacing the asynchronous GMs and SMs are organized into three key stages. NetRoller first harvests semantically rich and computationally efficient representations from the reasoning processes of LLMs using an early stopping mechanism, which preserves critical insights on driving context while maintaining low overhead. It then applies learnable query embeddings, nonsensical embeddings, and positional layer embeddings to facilitate robust and efficient cross-modality translation. At last, it employs computationally efficient Query Shift and Feature Shift mechanisms to enhance the performance of SMs through few-epoch fine-tuning. Based on the mechanisms formalized in these three stages, NetRoller enables specialized driving models to operate at their native frequencies while maintaining situational awareness of the GM. Experiments conducted on the nuScenes dataset demonstrate that integrating GM through NetRoller significantly improves human similarity and safety in planning tasks, and it also achieves noticeable precision improvements in detection and mapping tasks for end-to-end autonomous driving.},
+  selected={true},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
+  code={https://github.com/Rex-sys-hk/NetRoller},
+  preview={netroller.svg},
+  arxiv={2506.14589},
+  }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
 @article{PhysRev.47.777,
   abbr={PhysRev},

@@ -26,6 +26,24 @@
   arxiv={2506.14589},
   }
 
+@misc{LHPF,
+      title={LHPF: Look back the History and Plan for the Future in Autonomous Driving}, 
+      author={Sheng Wang and Yao Tian and Xiaodong Mei and Ge Sun and Jie Cheng and Fulong Ma and Pedro V. Sander and Junwei Liang},
+      year={2024},
+      eprint={2411.17253},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      note={[Under review]},
+      selected={true},
+      website={https://chantsss.github.io/LHPF/},
+      code={https://github.com/chantsss/LHPF},
+      bibtex_show={true},
+      preview={LHPF.png},
+      url={https://arxiv.org/abs/2411.17253}, 
+      abstract={Decision-making and planning in autonomous driving critically reflect the safety of the system, making effective planning imperative. Current imitation learning-based planning algorithms often merge historical trajectories with present observations to predict future candidate paths. However, these algorithms typically assess the current and historical plans independently, leading to discontinuities in driving intentions and an accumulation of errors with each step in a discontinuous plan. To tackle this challenge, this paper introduces LHPF, an imitation learning planner that integrates historical planning information. Our approach employs a historical intention aggregation module that pools historical planning intentions, which are then combined with a spatial query vector to decode the final planning trajectory. Furthermore, we incorporate a comfort auxiliary task to enhance the human-like quality of the driving behavior. Extensive experiments using both real-world and synthetic data demonstrate that LHPF not only surpasses existing advanced learning-based planners in planning performance but also marks the first instance of a purely learning-based planner outperforming the expert. Additionally, the application of the historical intention aggregation module across various backbones highlights the considerable potential of the proposed method. The code will be made publicly available.},
+      
+}
+
 
 @article{PhysRev.47.777,
   abbr={PhysRev},
@@ -55,55 +73,67 @@
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@INPROCEEDINGS{POP,
+  author={Wang, Sheng and Chen, Yingbing and Cheng, Jie and Mei, Xiaodong and Xin, Ren and others},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Improving Autonomous Driving Safety with POP: A Framework for Accurate Partially Observed Trajectory Predictions}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={14450-14456},
+  selected={true},
+  abstract={Accurate trajectory prediction is crucial for safe and efficient autonomous driving, 
+  but handling partial observations presents significant challenges. To address this, 
+  we propose a novel trajectory prediction framework called Partial Observations Prediction (POP) for congested urban road scenarios. 
+  The framework consists of two key stages: self-supervised learning (SSL) and feature distillation. 
+  POP first employs SLL to help the model learn to reconstruct history representations, 
+  and then utilizes feature distillation as the fine-tuning task to transfer knowledge from the teacher model, 
+  which has been pre-trained with complete observations, to the student model, which has only few observations. 
+  POP achieves comparable results to topperforming methods in open-loop experiments and outperforms the baseline method in closed-loop simulations, 
+  including safety metrics. Qualitative results illustrate the superiority of POP in providing reasonable and safe trajectory predictions.},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10610154},
+  website={https://chantsss.github.io/POP/},
+  code={https://github.com/chantsss/POP-CODE},
+  preview={POP.png},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
+  keywords={Accuracy;Roads;Self-supervised learning;Predictive models;Trajectory;History;Task analysis},
+  doi={10.1109/ICRA57147.2024.10610154}}
 
-@book{przibram1967letters,
+
+@INPROCEEDINGS{FCUS,
+  author={Wang, Sheng and Xin, Ren and Cheng, Jie and others},
+  booktitle={2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)}, 
+  title={FCUS: Traffic Rule-Aware Vehicle Trajectory Forecasting Using Continuous Unlikelihood and Signal Temporal Logic Feature}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10354968},
+  website={https://chantsss.github.io/FCUS/},
+  code={https://github.com/chantsss/FCUS},
+  preview={FCUS.png},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+  keywords={Biological system modeling;Neural networks;Predictive models;Trajectory;Safety;Forecasting;Task analysis},
+  doi={10.1109/ROBIO58561.2023.10354968}}
+
+@ARTICLE{RAM,
+  author={Chen, Yingbing and Cheng, Jie and Wang, Sheng and others},
+  journal={IEEE Robotics & Automation Magazine}, 
+  title={Enhancing Campus Mobility: Achievements and Challenges of the Snow Lion Autonomous Shuttle}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={2-13},
+  selected={true},
+  arxiv={2401.08939},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10623822},
+  website={https://chenyingbing.github.io/xueshi_campus_av/},
+  preview={RAM.png},
+  bibtex_show={true},
+  abstract={In recent years, the rapid evolution of autonomous vehicles (AVs) has reshaped global transportation systems, 
+leading to an increase in autonomous shuttle applications in people’s daily lives. Leveraging the accomplishments of our earlier endeavor, 
+particularly Hercules [1], an autonomous logistics vehicle for transporting goods, 
+we introduce Snow Lion, an autonomous shuttle vehicle specifically designed to transform on-campus transportation, 
+providing a safe and efficient mobility solution for students, faculty, and visitors.},
+  keywords={Laser radar;Task analysis;Sensors;Point cloud compression;Location awareness;Three-dimensional displays;Planning},
+  doi={10.1109/MRA.2024.3433168}}

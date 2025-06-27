@@ -41,7 +41,7 @@
 
 @INPROCEEDINGS{HGCN-GJS,
   abbr={IROS 2022},
-  author={Yuying, Chen* and Congcong, Liu* and Xiaodong, Mei*, and Bertram E., Shi and Ming, Liu},
+  author={Chen, Yuying* and Liu, Congcong* and Mei, Xiaodong*, and Shi, Bertram and Liu, Ming},
   booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), (*indicates equal contribution)}, 
   title={HGCN-GJS: Hierarchical graph convolutional network with groupwise joint sampling for trajectory prediction}, 
   year={2022},
@@ -124,7 +124,7 @@
       bibtex_show={true},
       preview={LHPF.png},
       url={https://arxiv.org/abs/2411.17253}, 
-      abstract={Decision-making and planning in autonomous driving critically reflect the safety of the system, making effective planning imperative. Current imitation learning-based planning algorithms often merge historical trajectories with present observations to predict future candidate paths. However, these algorithms typically assess the current and historical plans independently, leading to discontinuities in driving intentions and an accumulation of errors with each step in a discontinuous plan. To tackle this challenge, this paper introduces LHPF, an imitation learning planner that integrates historical planning information. Our approach employs a historical intention aggregation module that pools historical planning intentions, which are then combined with a spatial query vector to decode the final planning trajectory. Furthermore, we incorporate a comfort auxiliary task to enhance the human-like quality of the driving behavior. Extensive experiments using both real-world and synthetic data demonstrate that LHPF not only surpasses existing advanced learning-based planners in planning performance but also marks the first instance of a purely learning-based planner outperforming the expert. Additionally, the application of the historical intention aggregation module across various backbones highlights the considerable potential of the proposed method. The code will be made publicly available.},
+      abstract={Decision-making and planning in autonomous driving critically reflect the safety of the system, making effective planning imperative. Current imitation learning-based planning algorithms often merge historical trajectories with present observations to predict future candidate paths. However, these algorithms typically assess the current and historical plans independently, leading to discontinuities in driving intentions and an accumulation of errors with each step in a discontinuous plan. To tackle this challenge, this paper introduces LHPF, an imitation learning planner that integrates historical planning information. Our approach employs a historical intention aggregation module that pools historical planning intentions, which are then combined with a spatial query vector to decode the final planning trajectory. Furthermore, we incorporate a comfort auxiliary task to enhance the human-like quality of the driving behavior. Extensive experiments using both real-world and synthetic data demonstrate that LHPF not only surpasses existing advanced learning-based planners in planning performance but also marks the first instance of a purely learning-based planner outperforming the expert. Additionally, the application of the historical intention aggregation module across various backbones highlights the considerable potential of the proposed method. The code will be made publicly available.}
       
 }
 
@@ -192,3 +192,48 @@ we introduce Snow Lion, an autonomous shuttle vehicle specifically designed to t
 providing a safe and efficient mobility solution for students, faculty, and visitors.},
   keywords={Laser radar;Task analysis;Sensors;Point cloud compression;Location awareness;Three-dimensional displays;Planning},
   doi={10.1109/MRA.2024.3433168}}
+
+@INPROCEEDINGS{IPM,
+  abbr={RAL 2022},
+  author={Yingbing,Chen and Ren, Xin and Jie, Cheng and Qingwen, Zhang and Xiaodong, Mei and Ming, Liu and Lujia, Wang},
+  booktitle={IEEE Robotics and Automation Letters}, 
+  title={Efficient Speed Planning for Autonomous Driving in Dynamic Environment With Interaction Point Model},
+  abstract={Safely interacting with other traffic participants is one of the core requirements for autonomous driving, especially in intersections and occlusions. Most existing approaches are designed for particular scenarios and require significant human labor in parameter tuning to be applied to different situations. To solve this problem, we first propose a learning-based Interaction Point Model (IPM), which describes the interaction between agents with the protection time and interaction priority in a unified manner. We further integrate the proposed IPM into a novel planning framework, demonstrating its effectiveness and robustness through comprehensive simulations in highly dynamic environments.}
+  year={2022},
+  volume={7},
+  number={4},
+  pages={11839--11846},
+  bibtex_show={true},
+  doi={10.1109/LRA.2022.3207555}}
+
+@INPROCEEDINGS{IR-STP,
+  abbr={TITS 2024},
+  author={Yingbing, Chen and Jie, Cheng and Lu, Gan and Sheng, Wang and Hongji, Liu and Xiaodong, Mei and Ming, Liu},
+  booktitle={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Ir-stp: Enhancing autonomous driving with interaction reasoning in spatio-temporal planning},
+  abstract={Considerable research efforts have been devoted to the development of motion planning algorithms, which form a cornerstone of the autonomous driving system (ADS). Nonetheless, acquiring an interactive and secure trajectory for the ADS remains challenging due to the complex nature of interaction modeling in planning. Modern planning methods still employ a uniform treatment of prediction outcomes and solely rely on collision-avoidance strategies, leading to suboptimal planning performance. To address this limitation, this paper presents a novel prediction-based interactive planning framework for autonomous driving. Our method incorporates interaction reasoning into spatio-temporal (s-t) planning by defining interaction conditions and constraints. Specifically, it records and continually updates interaction relations for each planned state throughout the forward search. We assess the performance of our approach alongside state-of-the-art methods in the CommonRoad environment. Our experiments include a total of 232 scenarios, with variations in the accuracy of prediction outcomes, modality, and degrees of planner aggressiveness. The experimental findings demonstrate the effectiveness and robustness of our method. It leads to a reduction of collision times by approximately 17.6% in 3-modal scenarios, along with improvements of nearly 7.6% in distance completeness and 31.7% in the fail rate in single-modal scenarios. For the community’s reference, our code is accessible at https://github.com/ChenYingbing/IR-STP-Planner.},
+  year={2024},
+  volume={25},
+  number={8},
+  pages={10331-10343},
+  bibtex_show={true},
+  code={https://github.com/ChenYingbing/IR-STP-Planner},
+  doi={10.1109/TITS.2024.3360440}}
+
+
+@INPROCEEDINGS{Survey,
+  abbr={AppliedMath 2025},
+  author={Yang, Liu and Fulong, Ma and Xiaodong, Mei and Bohuan, Xue and Jin, Wu and Chengxi, Zhang},
+  booktitle={AppliedMath}, 
+  title={},
+  abstract={Autonomous drifting is an advanced technique that enhances vehicle maneuverability beyond conventional driving limits. This survey provides a comprehensive, systematic review of autonomous drifting research published between 2005 and early 2025, analyzing approximately 80 peer-reviewed studies. We employed a modified PRISMA approach to categorize and evaluate research across two main methodological frameworks: dynamical model-based approaches and deep learning techniques. Our analysis reveals that while dynamical methods offer precise control when accurately modeled, they often struggle with generalization to unknown environments. In contrast, deep learning approaches demonstrate better adaptability but face challenges in safety verification and sample efficiency. We comprehensively examine experimental platforms used in the field—from high-fidelity simulators to full-scale vehicles—along with their sensor configurations and computational requirements. This review uniquely identifies critical research gaps, including real-time performance limitations, environmental generalization challenges, safety validation concerns, and integration issues with broader autonomous systems. Our findings suggest that hybrid approaches combining model-based knowledge with data-driven learning may offer the most promising path forward for robust autonomous drifting capabilities in diverse applications ranging from motorsports to emergency collision avoidance in production vehicles.},
+  year={2025},
+  volume={5},
+  number={2},
+  pages={33},
+  bibtex_show={true},
+  doi={10.3390/appliedmath5020033}}
+
+
+
+

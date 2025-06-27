@@ -9,7 +9,23 @@
 @string{ral = {IEEE Robotics and Automation Letters}}
 @string{tits = {IEEE Transactions on Intelligent Transportation Systems}}
 
+@INPROCEEDINGS{HAMF,
+  abbr = {IROS 2025},
+  title={HAMF: A Hybrid Attention-Mamba Framework for Joint Scene Context Understanding and Future Motion Representation Learning},
+  booktitle={2025 Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  author={Mei, Xiaodong and Wang, Sheng and Cheng, Jie and Chen, Yingbing and Xu, Dan}, 
+  year={2025},
+  volume={},
+  number={},
+  selected={true},
+  abstract={Motion forecasting represents a critical challenge in autonomous driving systems, requiring accurate prediction of surrounding agents' future trajectories. While existing approaches predict future motion states with the extracted scene context feature from historical agent trajectories and road layouts, they suffer from the information degradation during the scene feature encoding. To address the limitation, we propose HAMF, a novel motion forecasting framework that learns future motion representations with the scene context encoding jointly, to coherently combine the scene understanding and future motion state prediction. We first embed the observed agent states and map information into 1D token sequences, together with the target multi-modal future motion features as a set of learnable tokens. Then we design a unified Attention-based encoder, which synergistically combines self-attention and cross-attention mechanisms to model the scene context information and aggregate future motion features jointly. Complementing the encoder, we implement the Mamba module in the decoding stage to further preserve the consistency and correlations among the learned future motion representations, to generate the accurate and diverse final trajectories. Extensive experiments on Argoverse 2 benchmark demonstrate that our hybrid Attention-Mamba model achieves state-of-the-art motion forecasting performance with the simple and lightweight architecture.},
+  website={https://github.com/xmei-hk/HAMF},
+  bibtex_show={true},
+}
+  
+
 @INPROCEEDINGS{xin2024generictrajectoryplanningmethod,
+  abbr = {arxiv 2025}
   title={NetRoller: Interfacing General and Specialized Models for End-to-End Autonomous Driving}, 
   author={Ren Xin and Hongji Liu and Xiaodong Mei and Wenru Liu and Maosheng Ye and Zhili Chen and Jun Ma},
   booktitle={submission},
@@ -22,18 +38,21 @@
   selected={true},
   bibtex_show={true},
   code={https://github.com/Rex-sys-hk/NetRoller},
-  preview={netroller.svg},
   arxiv={2506.14589},
   }
 
+
+
+
 @misc{LHPF,
+      abbr = {arxiv 2025}
       title={LHPF: Look back the History and Plan for the Future in Autonomous Driving}, 
       author={Sheng Wang and Yao Tian and Xiaodong Mei and Ge Sun and Jie Cheng and Fulong Ma and Pedro V. Sander and Junwei Liang},
       year={2024},
       eprint={2411.17253},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
-      note={[Under review]},
+      booktitle={submission},
       selected={true},
       website={https://chantsss.github.io/LHPF/},
       code={https://github.com/chantsss/LHPF},
@@ -101,7 +120,7 @@
 
 
 @INPROCEEDINGS{FCUS,
-  author={Wang, Sheng and Xin, Ren and Cheng, Jie and others},
+  author={Wang, Sheng and Xin, Ren and Cheng, Jie and Xiaodong, Mei and Ming Liu},
   booktitle={2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)}, 
   title={FCUS: Traffic Rule-Aware Vehicle Trajectory Forecasting Using Continuous Unlikelihood and Signal Temporal Logic Feature}, 
   year={2023},

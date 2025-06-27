@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p><small> Ph.D. student in Computer Science and Engineering (CSE) • The Hong Kong University of Science and Technology</small></p>
+subtitle: <p><small> Ph.D. student in Computer Science and Engineering (CSE) • The Hong Kong University of Science and Technology (HKUST)</small></p>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: xdm-1.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: |
     <p>Just do it!</p>
     <p>Email: xmeiab[at]connect.ust.hk</p>
     <p>Office: HKUST, Lab 2602</p>
